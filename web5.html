@@ -1,0 +1,73 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+<title> Rúško tajomstva </title>
+</head>
+
+<body>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            width: 70%;
+            text-align: center;
+        }
+ 
+        .box{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid black;
+            border-radius: 10px;
+            max-width: 30%;
+            background-color: pink;
+        }
+    </style>
+    <div class="container"> </div>
+
+<center> <h1> Si ako môj kompilátor - keď som s tebou, všetko sa zdá bezchybné. </h1> </center>
+<br> 
+<center>
+ <div class="box"> <p>Silvester mi zostal v mysli</p> 
+ <p>vždy, keď si naň spomeniem</p> 
+ <p>môj výraz neostane kyslý.</p> 
+ <p>Poznám ťa málo,</p>
+<p> no chcela by som viac, ak by sa dalo. </p> 
+<p> Nestrácam však nádej, </p> 
+<p> preto sa ťa pýtam, </p> 
+ <p> Pôjdeš so mnou von? </p>
+ <p> Ak áno, s otvorenou náručou ťa privítam. </p> 
+<br>
+
+<button onclick=urobniečo() style="background-color: aquamarine ; font-size: large; color: firebrick; size: 0vmax; width: 150px; height: 50px;"> Áno</button> 
+<br>
+<br>
+ <button onclick=urobniečo2() style="background-color: gray; font-size: large; color: azure; width: 150px; height: 50px;"> Nie </button> 
+
+</center>
+</div>
+<p id="test"> <center> 🙂 </center> </p>
+ <script>
+    function urobniečo(){
+        document.getElementById("test").innerHTML= "<center> <h2> Super, teším sa! Napíš mi. &#9829 </center>";
+    } 
+</script> 
+
+<script>
+    function urobniečo2(){
+        document.getElementById("test").innerHTML= "<center> <h2> 404 error <center>";
+    } 
+</script> 
+
+</body>
+
+
+
+
+
+
+</html>
